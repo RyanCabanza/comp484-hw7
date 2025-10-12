@@ -1,1 +1,1 @@
-# comp484-hw7
+# COMP 484 - Homework 7
