@@ -9,6 +9,7 @@
 ------------------------------------*/
 body {
     font-family: "Merriweather", sans-serif;
+    margin: 0;
 
 }
 h1, h2, h3{
@@ -26,9 +27,7 @@ h1{
 }
 h2{
     font-size: 24px;
-}
-a{
-    color: #abb8c3;
+    margin-top: 0;
 }
 section, header, footer{
     padding: 25px;
@@ -36,15 +35,28 @@ section, header, footer{
 h1{
     color: #3ed9cf;
 }
-img{
-    width: 275px;
-    height: auto;
-    float: left;
-    padding-right: 50px;
-}
 .content-wrap{
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }
 
 /* Header & Footer 
@@ -56,17 +68,36 @@ header, footer{
 header h2{
     color: #f7f9fc;
 }
+header h1, h2{
+    margin: 0;
+}
 footer h2{
     color: #3ed9cf;
 }
-header{
-    padding-bottom: 50px;
+footer{
+    text-align: center;
+}
+.contact-info a{
+    color: #abb8c3;
+    padding-right: 10px;
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.profile-img{
+    /*width: 300px;
+    float: left;
+    margin-right: 30px;*/
+    border-radius: 50%;
 }
 
 /* Work Experience
 ------------------------------------*/
 .workExperience{
     background: #3ed9cf;
+    h2{
+        padding-bottom: 25px;
+    }
 }
 
 
@@ -74,5 +105,7 @@ header{
 ------------------------------------*/
 .education{
     background: #f7f9fc;
-    
+    h2{
+        padding-bottom: 25px;
+    }
 }
