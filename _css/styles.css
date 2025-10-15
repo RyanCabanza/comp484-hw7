@@ -1,0 +1,78 @@
+/* Color Palette
+#0f3f3a - Botanical Night
+#3ed9cf - Fresh Turquoise
+#f7f9fc - Ghost White
+#abb8c3 - Glen Falls
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    font-family: "Merriweather", sans-serif;
+
+}
+h1, h2, h3{
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+}
+li{
+    line-height: 40px;
+}
+p{
+    line-height: 30px;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 24px;
+}
+a{
+    color: #abb8c3;
+}
+section, header, footer{
+    padding: 25px;
+}
+h1{
+    color: #3ed9cf;
+}
+img{
+    width: 275px;
+    height: auto;
+    float: left;
+    padding-right: 50px;
+}
+.content-wrap{
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer{
+    background: #0f3f3a;
+    color: #f7f9fc;
+}
+header h2{
+    color: #f7f9fc;
+}
+footer h2{
+    color: #3ed9cf;
+}
+header{
+    padding-bottom: 50px;
+}
+
+/* Work Experience
+------------------------------------*/
+.workExperience{
+    background: #3ed9cf;
+}
+
+
+/* Education
+------------------------------------*/
+.education{
+    background: #f7f9fc;
+    
+}
